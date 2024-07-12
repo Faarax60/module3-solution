@@ -1,0 +1,51 @@
+/* CSS styles for the module 3 solution */
+
+/* Navbar background color */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+/* Dropdown menu background color */
+.navbar-nav > li > a {
+    background-color: #ddd;
+}
+
+/* Centering text */
+.container h1 {
+    margin-top: 20px;
+}
+
+/* Tall section background color and height */
+.tall-section {
+    height: 1000px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* Ensure the navbar is not fixed and scrolls away with the page */
+.navbar-default {
+    position: relative;
+}
+
+/* Additional styles to match the screenshot */
+.navbar-header .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.text-center h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph background color and padding */
+.tall-section p {
+    font-size: 14px;
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
